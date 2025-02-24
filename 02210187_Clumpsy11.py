@@ -12,6 +12,12 @@
 # int val = ...; // Value to remove
 # int[] expectedNums = [...]; // The expected answer with correct length.
 #                             // It is sorted with no values equaling val.
+
+
+
+
+
+
 nums = [0,1,2,2,3,0,4,2]
 val = 2
 
@@ -24,6 +30,12 @@ def removeElement(nums, val):
             k +=1
     return k
 print(removeElement(nums, val))
+    
+    
+    
+    
+    
+    
     
 
 # int k = removeElement(nums, val); // Calls your implementation
