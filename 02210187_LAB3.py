@@ -74,4 +74,5 @@ stack.peek()  # Top element: 30
 stack.pop()   # Popped element: 30
 stack.display()  # Current stack: 20 -> 10 -> null
 
+
 print("Stack size:", stack.size)  # Stack size: 2
