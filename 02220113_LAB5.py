@@ -13,7 +13,6 @@ print("List:", data)
 print(f"Searching for {target_value} using Sequential Search")
 index, comparisons = sequential_search(data, target_value)
 
-
 if index != -1:
     print(f"Found at index {index}")
 else:
